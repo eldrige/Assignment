@@ -76,7 +76,7 @@ h2 {
     line-height:44px;
 }
 h3 {
-         font-size: 24px;
+         font-size: 21px;
 }
 h4 {
      font-size: 18px;
@@ -102,7 +102,7 @@ a {
 }
 
 p a {
-    border-bottom: 1px solid #defe25;
+    border-bottom: 1px solid #dfe2e5;
 }
 
 
@@ -161,7 +161,7 @@ HOME
 /* CUSTOM STYLES    */
 body {
     color: #888;
-    font: 300 16px/22px "Open sans" , "Helvetica Neue", "Helvetica", Arial , sans-serif;
+    font: 300 16px/22px "Lato", "Open sans" , "Helvetica Neue", "Helvetica", Arial , sans-serif;
     background: #293f50;
 
 }
@@ -172,6 +172,9 @@ body {
     font-size: 48px;
     line-height: 44px;
     padding: 40px 0 22px 0;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: .5px;
 }
 .tagline {
     margin: 66px 0 22px 0;
@@ -190,7 +193,7 @@ body {
     padding-bottom: 44px;
     padding-top: 44px
 }
-.primary-nav small {
+.primary-footer small {
     float: left;
     font-weight: 400;
 }
@@ -205,6 +208,7 @@ body {
 }
 .hero p {
     font-size: 24px;
+    font-weight: 100;
 }
 .teaser a:hover h3 {
     color: #a9b2b9;
@@ -272,6 +276,9 @@ aside.center{
     height: 264px;
 }
 /* Navigation */
+.nav{
+    text-align: right;
+}
 .nav li{
     display:inline-block;
     margin: 0 10px;
