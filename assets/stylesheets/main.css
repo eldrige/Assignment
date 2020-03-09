@@ -175,6 +175,7 @@ body {
     font-weight: 100;
     text-transform: uppercase;
     letter-spacing: .5px;
+    text-align: left;
 }
 .tagline {
     margin: 66px 0 22px 0;
@@ -257,8 +258,11 @@ body {
  border: 1px solid #dfe2e5;
  border-radius: 5px;
  margin-top: 88px;
- padding-bottom: 22px;
+ padding-bottom: 22px 0;
  text-align: center;
+}
+.speaker{
+    margin-bottom: 44px;
 }
 aside.center{
     margin: 0 auto;
