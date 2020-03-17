@@ -175,6 +175,7 @@ body {
     text-transform: uppercase;
     letter-spacing: .5px;
     text-align: left;
+    border-top: 5px solid #888;
 
 }
 .tagline {
